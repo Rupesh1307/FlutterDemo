@@ -3,8 +3,9 @@ import 'src/screens/app.dart';
 import 'src/screens/login.dart';
 import 'src/screens/apicall.dart';
 import 'src/screens/form.dart';
+import 'src/screens/bloc_login.dart';
 
 void main() {
-  runApp(const MaterialApp(title: 'Apicall', home: Formui()));
+  runApp(MaterialApp(title: 'Apicall', home: BlocLogin()));
   //runApp(Apicall());
 }
